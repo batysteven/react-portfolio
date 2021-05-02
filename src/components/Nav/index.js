@@ -7,7 +7,7 @@ function Nav(props) {
         projectsSelected,
         setProjectsSelected,
         aboutSelected,
-        setAboutSelected
+        setAboutSelected,
     } = props;
 
 

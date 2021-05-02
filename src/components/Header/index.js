@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
 
-function Header() {
-
-    const [aboutSelected, setAboutSelected] = useState(true);
-    const [contactSelected, setContactSelected] = useState(false);
-    const [projectsSelected, setProjectsSelected] = useState(false);
+function Header(props) {
+    const {
+        contactSelected,
+        setContactSelected,
+        projectsSelected,
+        setProjectsSelected,
+        aboutSelected,
+        setAboutSelected,
+    } = props;
     
 
     return (
