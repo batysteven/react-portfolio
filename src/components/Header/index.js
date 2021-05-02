@@ -1,16 +1,24 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
+import ContactForm from '../Contact';
+import About from '../About';
+import Projects from '../Projects';
 
-function Header(props) {
-    const {
-        contactSelected,
-        setContactSelected,
-        projectsSelected,
-        setProjectsSelected,
-        aboutSelected,
-        setAboutSelected,
-    } = props;
-    
+function Header() {
+    const [aboutSelected, setAboutSelected] = useState(true);
+    const [contactSelected, setContactSelected] = useState(false);
+    const [projectsSelected, setProjectsSelected] = useState(false);
+
+    let page;
+
+    if (aboutSelected === true) {
+        page = <About />
+    } else if (contactSelected === true) {
+        page = <ContactForm />
+    } else if (projectsSelected === true) {
+        page = <Projects />
+    }
+
 
     return (
         <div>
@@ -20,13 +28,16 @@ function Header(props) {
                 </a>
             </h2>
             <Nav
-            contactSelected={contactSelected}
-            setContactSelected={setContactSelected}
-            projectsSelected={projectsSelected}
-            setProjectsSelected={setProjectsSelected}
-            aboutSelected={aboutSelected}
-            setAboutSelected={setAboutSelected}
+                contactSelected={contactSelected}
+                setContactSelected={setContactSelected}
+                projectsSelected={projectsSelected}
+                setProjectsSelected={setProjectsSelected}
+                aboutSelected={aboutSelected}
+                setAboutSelected={setAboutSelected}
             ></Nav>
+            <main>
+                {page}
+            </main>
         </div>
     );
 };

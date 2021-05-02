@@ -6,7 +6,7 @@ function About() {
     return (
         <section>
             <h1 id="about">About Me</h1>
-            <img src={coverImage} roundedCircle />
+            {/* <img src={coverImage} roundedCircle /> */}
             <div className="my-2">
                 <p>Hello, my name is Steven Baty. Here is a portfolio I have created to show off my accomplishments and
                 applications I have worked very hard on! For a little info about me, I married my best friend in June of
