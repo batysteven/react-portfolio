@@ -22,19 +22,22 @@ function Header() {
 
     return (
         <div>
-            <h2>
-                <a data-testid="link" href="/">
-                    Steven Baty
+            <header className="flex-row px-1">
+                <h2>
+                    <a data-testid="link" href="/">
+                        Steven Baty
                 </a>
-            </h2>
-            <Nav
-                contactSelected={contactSelected}
-                setContactSelected={setContactSelected}
-                projectsSelected={projectsSelected}
-                setProjectsSelected={setProjectsSelected}
-                aboutSelected={aboutSelected}
-                setAboutSelected={setAboutSelected}
-            ></Nav>
+                </h2>
+                <Nav
+                    contactSelected={contactSelected}
+                    setContactSelected={setContactSelected}
+                    projectsSelected={projectsSelected}
+                    setProjectsSelected={setProjectsSelected}
+                    aboutSelected={aboutSelected}
+                    setAboutSelected={setAboutSelected}
+                ></Nav>
+            </header>
+
             <main>
                 {page}
             </main>

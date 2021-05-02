@@ -6,8 +6,11 @@ function Footer() {
 
     return (
         <div>
-            <img src={github} />
-            <img src={linkedin} />
+            <footer className="flex-row">
+            <img src={github} alt="github" />
+            <img src={linkedin} alt="linkedin" />
+            </footer>
+            
         </div>
     );
 };
