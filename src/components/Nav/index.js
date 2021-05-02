@@ -14,6 +14,11 @@ function Nav() {
                     <Projects />
                 </a>
             </li>
+            <li>
+                <a data-testid="contact" href="#contact" onClick={() => setContactSelected(false)}>
+                    Contact
+                </a>
+            </li>
         </ul>
 
     );
