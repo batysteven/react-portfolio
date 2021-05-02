@@ -3,6 +3,10 @@ import Nav from '../Nav';
 
 function Header() {
 
+    const [contactSelected, setContactSelected] = useState(false);
+    const [projectsSelected, setProjectsSelected] = useState(false);
+    const [aboutSelected, setAboutSelected] = useState(true);
+
     return (
         <div>
             <h2>
@@ -10,7 +14,14 @@ function Header() {
                     Steven Baty
                 </a>
             </h2>
-            <Nav />
+            <Nav
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
+            projectsSelected={projectsSelected}
+            setProjectsSelected={setProjectsSelected}
+            aboutSelected={aboutSelected}
+            setAboutSelected={setAboutSelected}
+            ></Nav>
         </div>
     );
 };

@@ -1,25 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Projects from '../Projects';
 import ContactForm from '../Contact';
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected,
+        projectsSelected,
+        setProjectsSelected,
+        aboutSelected,
+        setAboutSelected
+    } = props;
+
 
     return (
         <ul>
-            <li>
-                <a data-testid="about" href="#about" >
-                    About me
-                </a>
+            <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
+                <span onClick={() => setAboutSelected(true)}>About Me</span>
             </li>
-            <li>
-                <a data-testid="projects" href="#projects" >
-                    Projects<Projects />
-                </a>
+            <li className={`mx-2 ${projectsSelected && 'navActive'}`}>
+                <span onClick={() => setProjectsSelected(true)}>Projects</span>
             </li>
-            <li>
-                <a data-testid="contact" href="#contact" >
-                    Contact<ContactForm />
-                </a>
+            <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                <span onClick={() => setContactSelected(true)}>Contact</span>
             </li>
         </ul>
 
