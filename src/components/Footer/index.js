@@ -7,10 +7,14 @@ function Footer() {
     return (
         <div>
             <footer className="flex-row">
-            <img src={github} alt="github" />
-            <img src={linkedin} alt="linkedin" />
+                <a href="https://github.com/batysteven">
+                    <img src={github} alt="github" />
+                </a>
+                <a href="https://www.linkedin.com/in/steven-baty-098716a3">
+                    <img src={linkedin} alt="linkedin" />
+                </a>
             </footer>
-            
+
         </div>
     );
 };
