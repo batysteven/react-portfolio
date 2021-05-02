@@ -167,6 +167,11 @@ textarea {
   text-align: center;
 }
 
+.text-innards:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
 .project-container:hover .project-innards {
   opacity: 1;
 }

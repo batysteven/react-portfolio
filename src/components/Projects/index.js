@@ -20,7 +20,7 @@ function Projects() {
                     <Col md="auto" className="project-container">
                         <img src={work1} alt="pizza-hunt" className="project-img" />
                         <div className="project-innards">
-                            <a href="https://arcane-bastion-68718.herokuapp.com/">
+                            <a href="https://arcane-bastion-68718.herokuapp.com/" className="text-innards">
                                 <h3>Pizza Hunt</h3>
                                 <h4>MongoDB/Node</h4>
                             </a>
@@ -30,13 +30,39 @@ function Projects() {
                         </div>
                     </Col>
                     <Col md="auto" className="project-container">
-                        <img src={work2} alt="the-minimal-prepper" className="project-img" />
+                        <img src={work2} alt="the-minimal-prepper" className="project-img"/>
                         <div className="project-innards">
-                            <a href="https://minimal-prepper.herokuapp.com/">
+                            <a href="https://minimal-prepper.herokuapp.com/" className="text-innards">
                                 <h3>The Minimal Prepper</h3>
                                 <h4>MySql/Handlebars</h4>
                             </a>
                             <a href="https://github.com/daniwhitlock/the-minimal-prepper">
+                                <img src={github} alt="github" className="project-github"/>
+                            </a>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col md="auto" className="project-container">
+                        <img src={work3} alt="note-taker" className="project-img" />
+                        <div className="project-innards">
+                            <a href="https://note-taker-steven.herokuapp.com/" className="text-innards">
+                                <h3>Note Taker</h3>
+                                <h4>MySql/CSS</h4>
+                            </a>
+                            <a href="https://github.com/batysteven/note-taker">
+                                <img src={github} alt="github" className="project-github"/>
+                            </a>
+                        </div>
+                    </Col>
+                    <Col md="auto" className="project-container">
+                        <img src={work4} alt="tech-blog" className="project-img" />
+                        <div className="project-innards">
+                            <a href="https://tech-blog-steven.herokuapp.com/" className="text-innards">
+                                <h3>The Tech Blog</h3>
+                                <h4>MySql/CSS</h4>
+                            </a>
+                            <a href="https://github.com/batysteven/tech-blog">
                                 <img src={github} alt="github" className="project-github"/>
                             </a>
                         </div>
@@ -45,29 +71,31 @@ function Projects() {
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col md="auto">
-                        <img src={work3} alt="note-taker" className="project-img" />
-
-
-
-                    </Col>
-                    <Col md="auto">
-                        <img src={work4} alt="tech-blog" className="project-img" />
-
-
-
-                    </Col>
-                </Row>
-                <Row className="justify-content-md-center">
-                    <Col md="auto">
+                    <Col md="auto" className="project-container">
                         <img src={work5} alt="budget-tracker" className="project-img" />
-
+                        <div className="project-innards">
+                            <a href="https://stormy-coast-00682.herokuapp.com/" className="text-innards">
+                                <h3>Budget Tracker</h3>
+                                <h4>MongoDB/PWA</h4>
+                            </a>
+                            <a href="https://github.com/batysteven/budget-tracker">
+                                <img src={github} alt="github" className="project-github"/>
+                            </a>
+                        </div>
 
 
                     </Col>
-                    <Col md="auto">
+                    <Col md="auto" className="project-container">
                         <img src={work6} alt="leftovers" className="project-img" />
-
+                        <div className="project-innards">
+                            <a href="https://tonganknight.github.io/awesome-sauce/" className="text-innards">
+                                <h3>Leftovers</h3>
+                                <h4>Javascript/CSS/Node</h4>
+                            </a>
+                            <a href="https://github.com/tonganknight/awesome-sauce">
+                                <img src={github} alt="github" className="project-github"/>
+                            </a>
+                        </div>
 
 
                     </Col>
