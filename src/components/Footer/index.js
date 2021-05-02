@@ -14,7 +14,6 @@ function Footer() {
                     <img src={linkedin} alt="linkedin" />
                 </a>
             </footer>
-
         </div>
     );
 };

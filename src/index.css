@@ -58,12 +58,26 @@ header {
   border: var(--dark) solid 6px;
   justify-content: space-between;
   height: 120px;
+  padding-top: 30px;
 }
 
 header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+header nav li{
+  padding-right: 200px;
+  
+}
+
+.my-header:hover {
+  color: var(--primary);
+  text-decoration: underline;
 }
 
 header nav li:hover {
@@ -122,21 +136,57 @@ textarea {
   margin-left: var(--spacing-two);
 }
 
+.project-img {
+  width: 400px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.project-container:hover .project-img {
+  opacity: 0.3;
+}
+
+.project-github {
+  width: 50px;
+}
+
+.project-github:hover {
+  opacity: 0.7
+}
+
+.project-innards {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-container:hover .project-innards {
+  opacity: 1;
+}
+
 footer {
   background: var(--secondary);
   border: var(--dark) solid 6px;
   bottom: 0;
   width: 100%;
-  text-align: center;
   position: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 footer a img{
   justify-content: center;
-  
   width: 100px;
+  padding-right: 20px;
 }
 
-footer a:hover {
-  color: var(--primary);
+footer a img:hover {
+  opacity: 80%;
 }
