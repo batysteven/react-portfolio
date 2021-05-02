@@ -1,6 +1,5 @@
 import React from 'react';
-import github from '../../assets/img/github.svg';
-import linkedin from '../../assets/img/linkedin.svg';
+
 
 function About() {
 
@@ -21,8 +20,7 @@ function About() {
                 through my completed work so far.</p>
             </div>
             <div>
-                <img src={github} />
-                <img src={linkedin} />
+                
             </div>
         </section>
     )
