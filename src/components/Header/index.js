@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from '../Nav';
 
 function Header() {
 
+    const [aboutSelected, setAboutSelected] = useState(true);
     const [contactSelected, setContactSelected] = useState(false);
     const [projectsSelected, setProjectsSelected] = useState(false);
-    const [aboutSelected, setAboutSelected] = useState(true);
+    
 
     return (
         <div>
