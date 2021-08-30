@@ -20,9 +20,6 @@ function About() {
                 the business. Let's chat if this sounds like the person you're looking for.</p>
                 <p>Reach out to me at batysteven1@gmail.com</p>
             </div>
-            <div>
-
-            </div>
         </section>
     )
 }
