@@ -24,7 +24,7 @@ function Header() {
         <div>
             <header className="flex-row px-1">
                 <h2>
-                    <a data-testid="link" href="/" className="my-header">
+                    <a data-testid="link" href="https://github.com/batysteven" className="my-header">
                         Steven Baty
                 </a>
                 </h2>
