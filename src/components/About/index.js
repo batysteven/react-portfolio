@@ -18,7 +18,7 @@ function About() {
                 impeccable service interactions is my goal.</p>
                 <p>I'm a very dedicated worker; willing to dive in and learn new skills and turn those into actions that benefit 
                 the business. Let's chat if this sounds like the person you're looking for.</p>
-                <p>Reach out to me at </p>
+                <p>Reach out to me at batysteven1@gmail.com</p>
             </div>
             <div>
 
