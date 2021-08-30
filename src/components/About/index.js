@@ -8,19 +8,20 @@ function About() {
             <h1 id="about">About Me</h1>
             {/* <img src={coverImage} roundedCircle /> */}
             <div className="my-2">
-                <p>Hello, my name is Steven Baty. Here is a portfolio I have created to show off my accomplishments and
-                applications I have worked very hard on! For a little info about me, I married my best friend in June of
-                2016. The wedding was where we first met up at Bear Lake, a very cute beach wedding! We have two very
-                adorable fur babies and live in a modest first home. I have just completed a coding bootcamp through
-                University of Utah for Full Stack Web Developer. I am very proud of myself and how far I have come
-                during this process.</p>
-                <p>I am looking to start a career instead of just having a job. I'm a very hard worker who is extremely
-                eager to learn! I work very well in teams and can't wait to learn from and assist my future co-workers!
-                I'm a very dedicated worker who loves to solve problems and search for solutions. Please enjoy looking
-                through my completed work so far.</p>
+                <p>Hello, my name is Steven Baty. I'm an accomplished customer service representative who has recently 
+                completed the University of Utah's concentrated path for full stack web developer. I have passion for 
+                solving problems and searching for innovative solutions and applying this skill set through tech development. 
+                I bring a range of experience with HTML, CSS, Javascript, MySQL, PWA, React, MongoDB, Express, and Node.</p>
+                <p>I'm looking for a position where I can use my excellent communication and people skills, while applying my 
+                new coding knowledge. I love fast-paced environments and want to contribute to a company's growth and customer 
+                happiness. Finding a role with a technology company where I can grow my skills and use my background of delivering 
+                impeccable service interactions is my goal.</p>
+                <p>I'm a very dedicated worker; willing to dive in and learn new skills and turn those into actions that benefit 
+                the business. Let's chat if this sounds like the person you're looking for.</p>
+                <p>Reach out to me at </p>
             </div>
             <div>
-                
+
             </div>
         </section>
     )
